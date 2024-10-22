@@ -201,13 +201,13 @@ class Subroutine:
                     child = self.window.findChild(QLabel, label)
                     if child is not None:
                         child.setText(
-                            f"{key} ({measured[key]:.2f}) within tol: {targetMeasurement:.1f} +/- {measurementTolerance:.2f}"
+                            f"{key} ({measured[key]:.3f}) within tol: {targetMeasurement:.1f} +/- {measurementTolerance:.2f}"
                         )
                         child.setStyleSheet("background-color: green")
                 case False:
                     child = self.window.findChild(QLabel, label)
                     if child is not None:
-                        text = f"{key} ({measured[key]:.2f}) outside tol: {targetMeasurement:.1f} +/- {measurementTolerance:.2f}"
+                        text = f"{key} ({measured[key]:.3f}) outside tol: {targetMeasurement:.1f} +/- {measurementTolerance:.2f}"
                         child.setText(text)
                         child.setStyleSheet("background-color: salmon")
                         statusList.append(text)
@@ -236,13 +236,13 @@ class Subroutine:
                     child = self.window.findChild(QLabel, label)
                     if child is not None:
                         child.setText(
-                            f"{self.axis[i]} gain: {meas_gain:.2f} outside tol: {tolerance:.1f}"
+                            f"{self.axis[i]} gain: {meas_gain:.3f} outside tol: {tolerance:.1f}"
                         )
                         child.setStyleSheet("background-color: green")
                 case False:
                     child = self.window.findChild(QLabel, label)
                     if child is not None:
-                        text = f"{self.axis[i]} gain: {meas_gain:.2f} outside tol: {tolerance:.1f}"
+                        text = f"{self.axis[i]} gain: {meas_gain:.3f} outside tol: {tolerance:.1f}"
                         child.setText(text)
                         child.setStyleSheet("background-color: salmon")
                         statusList.append(text)
@@ -254,13 +254,13 @@ class Subroutine:
                     child = self.window.findChild(QLabel, label)
                     if child is not None:
                         child.setText(
-                            f"{self.axis[i]} offset: {meas_offset:.2f} outside tol: {tolerance:.1f}"
+                            f"{self.axis[i]} offset: {meas_offset:.3f} outside tol: {tolerance:.1f}"
                         )
                         child.setStyleSheet("background-color: green")
                 case False:
                     child = self.window.findChild(QLabel, label)
                     if child is not None:
-                        text = f"{self.axis[i]} offset: {meas_offset:.2f} outside tol: {tolerance:.1f}"
+                        text = f"{self.axis[i]} offset: {meas_offset:.3f} outside tol: {tolerance:.1f}"
                         child.setText(text)
                         child.setStyleSheet("background-color: salmon")
                         statusList.append(text)
