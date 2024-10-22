@@ -491,22 +491,20 @@ class Ui_MainWindow(object):
         self.formLayout.setVerticalSpacing(10)
         self.PartNumberLabel = QLabel(self.groupBox)
         self.PartNumberLabel.setObjectName(u"PartNumberLabel")
-        font2 = QFont()
-        font2.setPointSize(11)
-        self.PartNumberLabel.setFont(font2)
+        self.PartNumberLabel.setFont(font1)
 
         self.formLayout.setWidget(0, QFormLayout.LabelRole, self.PartNumberLabel)
 
         self.JobNumberLabel = QLabel(self.groupBox)
         self.JobNumberLabel.setObjectName(u"JobNumberLabel")
-        self.JobNumberLabel.setFont(font2)
+        self.JobNumberLabel.setFont(font1)
 
         self.formLayout.setWidget(1, QFormLayout.LabelRole, self.JobNumberLabel)
 
         self.JobNumberComboBox = QComboBox(self.groupBox)
         self.JobNumberComboBox.addItem("")
         self.JobNumberComboBox.setObjectName(u"JobNumberComboBox")
-        self.JobNumberComboBox.setFont(font2)
+        self.JobNumberComboBox.setFont(font1)
 
         self.formLayout.setWidget(1, QFormLayout.FieldRole, self.JobNumberComboBox)
 
@@ -515,7 +513,7 @@ class Ui_MainWindow(object):
         self.PartNumberLineEdit.setEnabled(False)
         sizePolicy.setHeightForWidth(self.PartNumberLineEdit.sizePolicy().hasHeightForWidth())
         self.PartNumberLineEdit.setSizePolicy(sizePolicy)
-        self.PartNumberLineEdit.setFont(font2)
+        self.PartNumberLineEdit.setFont(font1)
         self.PartNumberLineEdit.setAlignment(Qt.AlignCenter)
 
         self.formLayout.setWidget(0, QFormLayout.FieldRole, self.PartNumberLineEdit)
@@ -543,10 +541,10 @@ class Ui_MainWindow(object):
 
         self.InfoLabel1 = QLabel(self.groupBox_4)
         self.InfoLabel1.setObjectName(u"InfoLabel1")
-        font3 = QFont()
-        font3.setFamilies([u"Arial"])
-        font3.setPointSize(12)
-        self.InfoLabel1.setFont(font3)
+        font2 = QFont()
+        font2.setFamilies([u"Arial"])
+        font2.setPointSize(12)
+        self.InfoLabel1.setFont(font2)
         self.InfoLabel1.setStyleSheet(u"background-color:lightgrey")
         self.InfoLabel1.setAlignment(Qt.AlignCenter)
 
@@ -554,7 +552,7 @@ class Ui_MainWindow(object):
 
         self.InfoLabel2 = QLabel(self.groupBox_4)
         self.InfoLabel2.setObjectName(u"InfoLabel2")
-        self.InfoLabel2.setFont(font3)
+        self.InfoLabel2.setFont(font2)
         self.InfoLabel2.setStyleSheet(u"background-color:lightgrey")
         self.InfoLabel2.setAlignment(Qt.AlignCenter)
 
@@ -562,7 +560,7 @@ class Ui_MainWindow(object):
 
         self.InfoLabel3 = QLabel(self.groupBox_4)
         self.InfoLabel3.setObjectName(u"InfoLabel3")
-        self.InfoLabel3.setFont(font3)
+        self.InfoLabel3.setFont(font2)
         self.InfoLabel3.setStyleSheet(u"background-color:lightgrey")
         self.InfoLabel3.setAlignment(Qt.AlignCenter)
 
@@ -570,7 +568,7 @@ class Ui_MainWindow(object):
 
         self.InfoLabel4 = QLabel(self.groupBox_4)
         self.InfoLabel4.setObjectName(u"InfoLabel4")
-        self.InfoLabel4.setFont(font3)
+        self.InfoLabel4.setFont(font2)
         self.InfoLabel4.setStyleSheet(u"background-color:lightgrey")
         self.InfoLabel4.setAlignment(Qt.AlignCenter)
 
@@ -578,7 +576,7 @@ class Ui_MainWindow(object):
 
         self.InfoLabel5 = QLabel(self.groupBox_4)
         self.InfoLabel5.setObjectName(u"InfoLabel5")
-        self.InfoLabel5.setFont(font3)
+        self.InfoLabel5.setFont(font2)
         self.InfoLabel5.setStyleSheet(u"background-color:lightgrey")
         self.InfoLabel5.setAlignment(Qt.AlignCenter)
 
@@ -586,7 +584,7 @@ class Ui_MainWindow(object):
 
         self.InfoLabel6 = QLabel(self.groupBox_4)
         self.InfoLabel6.setObjectName(u"InfoLabel6")
-        self.InfoLabel6.setFont(font3)
+        self.InfoLabel6.setFont(font2)
         self.InfoLabel6.setStyleSheet(u"background-color:lightgrey")
         self.InfoLabel6.setAlignment(Qt.AlignCenter)
 
@@ -594,7 +592,7 @@ class Ui_MainWindow(object):
 
         self.InfoLabel7 = QLabel(self.groupBox_4)
         self.InfoLabel7.setObjectName(u"InfoLabel7")
-        self.InfoLabel7.setFont(font3)
+        self.InfoLabel7.setFont(font2)
         self.InfoLabel7.setStyleSheet(u"background-color:lightgrey")
         self.InfoLabel7.setAlignment(Qt.AlignCenter)
 
@@ -602,7 +600,7 @@ class Ui_MainWindow(object):
 
         self.InfoLabel8 = QLabel(self.groupBox_4)
         self.InfoLabel8.setObjectName(u"InfoLabel8")
-        self.InfoLabel8.setFont(font3)
+        self.InfoLabel8.setFont(font2)
         self.InfoLabel8.setStyleSheet(u"background-color:lightgrey")
         self.InfoLabel8.setAlignment(Qt.AlignCenter)
 

@@ -1290,7 +1290,7 @@
           <widget class="QLabel" name="PartNumberLabel">
            <property name="font">
             <font>
-             <pointsize>11</pointsize>
+             <pointsize>14</pointsize>
             </font>
            </property>
            <property name="text">
@@ -1302,7 +1302,7 @@
           <widget class="QLabel" name="JobNumberLabel">
            <property name="font">
             <font>
-             <pointsize>11</pointsize>
+             <pointsize>14</pointsize>
             </font>
            </property>
            <property name="text">
@@ -1314,7 +1314,7 @@
           <widget class="QComboBox" name="JobNumberComboBox">
            <property name="font">
             <font>
-             <pointsize>11</pointsize>
+             <pointsize>14</pointsize>
             </font>
            </property>
            <item>
@@ -1337,7 +1337,7 @@
            </property>
            <property name="font">
             <font>
-             <pointsize>11</pointsize>
+             <pointsize>14</pointsize>
             </font>
            </property>
            <property name="text">
