@@ -1,0 +1,1244 @@
+{
+    "02550431-1122": {
+        "model": "JMHA-100-1-D-0.5",
+        "generic": true,
+        "pca": "F879926-997",
+        "connector": "F879929",
+        "singleSupply": false,
+        "offsetRatio": 2.6686,
+        "gain": 18.1936
+    },
+    "02550431-1422": {
+        "model": "JMHA-100-4-D-0.5",
+        "generic": true,
+        "pca": "F879926-997",
+        "connector": "F879930",
+        "singleSupply": false,
+        "offsetRatio": 2.6686,
+        "gain": 18.1936
+    },
+    "02550431-1123": {
+        "model": "JMHA-100-1-D-1.0",
+        "generic": true,
+        "pca": "F879926-997",
+        "connector": "F879929",
+        "singleSupply": false,
+        "offsetRatio": 2.6686,
+        "gain": 9.0968
+    },
+    "02550431-1423": {
+        "model": "JMHA-100-4-D-1.0",
+        "generic": true,
+        "pca": "F879926-997",
+        "connector": "F879930",
+        "singleSupply": false,
+        "offsetRatio": 2.6686,
+        "gain": 9.0968
+    },
+    "02550431-1124": {
+        "model": "JMHA-100-1-D-2.0",
+        "generic": true,
+        "pca": "F879926-997",
+        "connector": "F879929",
+        "singleSupply": false,
+        "offsetRatio": 2.6686,
+        "gain": 4.5484
+    },
+    "02550431-1424": {
+        "model": "JMHA-100-4-D-2.0",
+        "generic": true,
+        "pca": "F879926-997",
+        "connector": "F879930",
+        "singleSupply": false,
+        "offsetRatio": 2.6686,
+        "gain": 4.5484
+    },
+    "02550431-1126": {
+        "model": "JMHA-100-1-D-4.0",
+        "generic": true,
+        "pca": "F879926-998",
+        "connector": "F879929",
+        "singleSupply": false,
+        "offsetRatio": 2.6686,
+        "gain": 11.371
+    },
+    "02550431-1426": {
+        "model": "JMHA-100-4-D-4.0",
+        "generic": true,
+        "pca": "F879926-998",
+        "connector": "F879930",
+        "singleSupply": false,
+        "offsetRatio": 2.6686,
+        "gain": 11.371
+    },
+    "02550431-1128": {
+        "model": "JMHA-100-1-D-10.0",
+        "generic": true,
+        "pca": "F879926-998",
+        "connector": "F879929",
+        "singleSupply": false,
+        "offsetRatio": 2.6686,
+        "gain": 4.5484
+    },
+    "02550431-1428": {
+        "model": "JMHA-100-4-D-10.0",
+        "generic": true,
+        "pca": "F879926-998",
+        "connector": "F879930",
+        "singleSupply": false,
+        "offsetRatio": 2.6686,
+        "gain": 4.5484
+    },
+    "02550431-1112": {
+        "model": "JMHA-100-1-S-0.5",
+        "generic": true,
+        "pca": "F879926-997",
+        "connector": "F879929",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 12.14
+    },
+    "02550431-1412": {
+        "model": "JMHA-100-4-S-0.5",
+        "generic": true,
+        "pca": "F879926-997",
+        "connector": "F879930",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 12.14
+    },
+    "02550431-1113": {
+        "model": "JMHA-100-1-S-1.0",
+        "generic": true,
+        "pca": "F879926-997",
+        "connector": "F879929",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 6.07
+    },
+    "02550431-1413": {
+        "model": "JMHA-100-4-S-1.0",
+        "generic": true,
+        "pca": "F879926-997",
+        "connector": "F879930",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 6.07
+    },
+    "02550431-1114": {
+        "model": "JMHA-100-1-S-2.0",
+        "generic": true,
+        "pca": "F879926-997",
+        "connector": "F879929",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 3.0350
+    },
+    "02550431-1414": {
+        "model": "JMHA-100-4-S-2.0",
+        "generic": true,
+        "pca": "F879926-997",
+        "connector": "F879930",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 3.0350
+    },
+    "02550431-1116": {
+        "model": "JMHA-100-1-S-4.0",
+        "generic": true,
+        "pca": "F879926-998",
+        "connector": "F879929",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 7.5875
+    },
+    "02550431-1416": {
+        "model": "JMHA-100-4-S-4.0",
+        "generic": true,
+        "pca": "F879926-998",
+        "connector": "F879930",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 7.5875
+    },
+    "02550431-1118": {
+        "model": "JMHA-100-1-S-10.0",
+        "generic": true,
+        "pca": "F879926-998",
+        "connector": "F879929",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 3.0350
+    },
+    "02550431-1418": {
+        "model": "JMHA-100-4-S-10.0",
+        "generic": true,
+        "pca": "F879926-998",
+        "connector": "F879930",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 3.0350
+    },
+    "02550431-1132": {
+        "model": "JMHA-100-1-L-0.5",
+        "generic": true,
+        "pca": "F879926-997",
+        "connector": "F879929",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 12.14
+    },
+    "02550431-1432": {
+        "model": "JMHA-100-4-L-0.5",
+        "generic": true,
+        "pca": "F879926-997",
+        "connector": "F879930",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 12.14
+    },
+    "02550431-1133": {
+        "model": "JMHA-100-1-L-1.0",
+        "generic": true,
+        "pca": "F879926-997",
+        "connector": "F879929",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 6.07
+    },
+    "02550431-1433": {
+        "model": "JMHA-100-4-L-1.0",
+        "generic": true,
+        "pca": "F879926-997",
+        "connector": "F879930",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 6.07
+    },
+    "02550431-1134": {
+        "model": "JMHA-100-1-L-2.0",
+        "generic": true,
+        "pca": "F879926-997",
+        "connector": "F879929",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 3.0350
+    },
+    "02550431-1434": {
+        "model": "JMHA-100-4-L-2.0",
+        "generic": true,
+        "pca": "F879926-997",
+        "connector": "F879930",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 3.0350
+    },
+    "02550431-1136": {
+        "model": "JMHA-100-1-L-4.0",
+        "generic": true,
+        "pca": "F879926-998",
+        "connector": "F879929",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 7.5875
+    },
+    "02550431-1436": {
+        "model": "JMHA-100-4-L-4.0",
+        "generic": true,
+        "pca": "F879926-998",
+        "connector": "F879930",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 7.5875
+    },
+    "02550431-1138": {
+        "model": "JMHA-100-1-L-10.0",
+        "generic": true,
+        "pca": "F879926-998",
+        "connector": "F879929",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 3.0350
+    },
+    "02550431-1438": {
+        "model": "JMHA-100-4-L-10.0",
+        "generic": true,
+        "pca": "F879926-998",
+        "connector": "F879930",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 3.0350
+    },
+    "02550431-2122": {
+        "model": "JMHA-200-1-D-0.5",
+        "generic": true,
+        "pca": "F879926-997",
+        "connector": "F879929",
+        "singleSupply": false,
+        "offsetRatio": 2.6686,
+        "gain": 18.1936
+    },
+    "02550431-2422": {
+        "model": "JMHA-200-4-D-0.5",
+        "generic": true,
+        "pca": "F879926-997",
+        "connector": "F879930",
+        "singleSupply": false,
+        "offsetRatio": 2.6686,
+        "gain": 18.1936
+    },
+    "02550431-2123": {
+        "model": "JMHA-200-1-D-1.0",
+        "generic": true,
+        "pca": "F879926-997",
+        "connector": "F879929",
+        "singleSupply": false,
+        "offsetRatio": 2.6686,
+        "gain": 9.0968
+    },
+    "02550431-2423": {
+        "model": "JMHA-200-4-D-1.0",
+        "generic": true,
+        "pca": "F879926-997",
+        "connector": "F879930",
+        "singleSupply": false,
+        "offsetRatio": 2.6686,
+        "gain": 9.0968
+    },
+    "02550431-2124": {
+        "model": "JMHA-200-1-D-2.0",
+        "generic": true,
+        "pca": "F879926-997",
+        "connector": "F879929",
+        "singleSupply": false,
+        "offsetRatio": 2.6686,
+        "gain": 4.5484
+    },
+    "02550431-2424": {
+        "model": "JMHA-200-4-D-2.0",
+        "generic": true,
+        "pca": "F879926-997",
+        "connector": "F879930",
+        "singleSupply": false,
+        "offsetRatio": 2.6686,
+        "gain": 4.5484
+    },
+    "02550431-2126": {
+        "model": "JMHA-200-1-D-4.0",
+        "generic": true,
+        "pca": "F879926-998",
+        "connector": "F879929",
+        "singleSupply": false,
+        "offsetRatio": 2.6686,
+        "gain": 11.371
+    },
+    "02550431-2426": {
+        "model": "JMHA-200-4-D-4.0",
+        "generic": true,
+        "pca": "F879926-998",
+        "connector": "F879930",
+        "singleSupply": false,
+        "offsetRatio": 2.6686,
+        "gain": 11.371
+    },
+    "02550431-2128": {
+        "model": "JMHA-200-1-D-10.0",
+        "generic": true,
+        "pca": "F879926-998",
+        "connector": "F879929",
+        "singleSupply": false,
+        "offsetRatio": 2.6686,
+        "gain": 4.5484
+    },
+    "02550431-2428": {
+        "model": "JMHA-200-4-D-10.0",
+        "generic": true,
+        "pca": "F879926-998",
+        "connector": "F879930",
+        "singleSupply": false,
+        "offsetRatio": 2.6686,
+        "gain": 4.5484
+    },
+    "02550431-2112": {
+        "model": "JMHA-200-1-S-0.5",
+        "generic": true,
+        "pca": "F879926-997",
+        "connector": "F879929",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 12.14
+    },
+    "02550431-2412": {
+        "model": "JMHA-200-4-S-0.5",
+        "generic": true,
+        "pca": "F879926-997",
+        "connector": "F879930",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 12.14
+    },
+    "02550431-2113": {
+        "model": "JMHA-200-1-S-1.0",
+        "generic": true,
+        "pca": "F879926-997",
+        "connector": "F879929",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 6.07
+    },
+    "02550431-2413": {
+        "model": "JMHA-200-4-S-1.0",
+        "generic": true,
+        "pca": "F879926-997",
+        "connector": "F879930",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 6.07
+    },
+    "02550431-2114": {
+        "model": "JMHA-200-1-S-2.0",
+        "generic": true,
+        "pca": "F879926-997",
+        "connector": "F879929",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 3.0350
+    },
+    "02550431-2414": {
+        "model": "JMHA-200-4-S-2.0",
+        "generic": true,
+        "pca": "F879926-997",
+        "connector": "F879930",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 3.0350
+    },
+    "02550431-2116": {
+        "model": "JMHA-200-1-S-4.0",
+        "generic": true,
+        "pca": "F879926-998",
+        "connector": "F879929",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 7.5875
+    },
+    "02550431-2416": {
+        "model": "JMHA-200-4-S-4.0",
+        "generic": true,
+        "pca": "F879926-998",
+        "connector": "F879930",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 7.5875
+    },
+    "02550431-2118": {
+        "model": "JMHA-200-1-S-10.0",
+        "generic": true,
+        "pca": "F879926-998",
+        "connector": "F879929",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 3.0350
+    },
+    "02550431-2418": {
+        "model": "JMHA-200-4-S-10.0",
+        "generic": true,
+        "pca": "F879926-998",
+        "connector": "F879930",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 3.0350
+    },
+    "02550431-2132": {
+        "model": "JMHA-200-1-L-0.5",
+        "generic": true,
+        "pca": "F879926-997",
+        "connector": "F879929",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 12.14
+    },
+    "02550431-2432": {
+        "model": "JMHA-200-4-L-0.5",
+        "generic": true,
+        "pca": "F879926-997",
+        "connector": "F879930",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 12.14
+    },
+    "02550431-2133": {
+        "model": "JMHA-200-1-L-1.0",
+        "generic": true,
+        "pca": "F879926-997",
+        "connector": "F879929",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 6.07
+    },
+    "02550431-2433": {
+        "model": "JMHA-200-4-L-1.0",
+        "generic": true,
+        "pca": "F879926-997",
+        "connector": "F879930",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 6.07
+    },
+    "02550431-2134": {
+        "model": "JMHA-200-1-L-2.0",
+        "generic": true,
+        "pca": "F879926-997",
+        "connector": "F879929",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 3.0350
+    },
+    "02550431-2434": {
+        "model": "JMHA-200-4-L-2.0",
+        "generic": true,
+        "pca": "F879926-997",
+        "connector": "F879930",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 3.0350
+    },
+    "02550431-2136": {
+        "model": "JMHA-200-1-L-4.0",
+        "generic": true,
+        "pca": "F879926-998",
+        "connector": "F879929",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 7.5875
+    },
+    "02550431-2436": {
+        "model": "JMHA-200-4-L-4.0",
+        "generic": true,
+        "pca": "F879926-998",
+        "connector": "F879930",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 7.5875
+    },
+    "02550431-2138": {
+        "model": "JMHA-200-1-L-10.0",
+        "generic": true,
+        "pca": "F879926-998",
+        "connector": "F879929",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 3.0350
+    },
+    "02550431-2438": {
+        "model": "JMHA-200-4-L-10.0",
+        "generic": true,
+        "pca": "F879926-998",
+        "connector": "F879930",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 3.0350
+    },
+    "02550431-3122": {
+        "model": "JMHA-300-1-D-0.5",
+        "generic": true,
+        "pca": "F879926-997",
+        "connector": "F879929",
+        "singleSupply": false,
+        "offsetRatio": 2.6686,
+        "gain": 18.1936
+    },
+    "02550431-3422": {
+        "model": "JMHA-300-4-D-0.5",
+        "generic": true,
+        "pca": "F879926-997",
+        "connector": "F879930",
+        "singleSupply": false,
+        "offsetRatio": 2.6686,
+        "gain": 18.1936
+    },
+    "02550431-3123": {
+        "model": "JMHA-300-1-D-1.0",
+        "generic": true,
+        "pca": "F879926-997",
+        "connector": "F879929",
+        "singleSupply": false,
+        "offsetRatio": 2.6686,
+        "gain": 9.0968
+    },
+    "02550431-3423": {
+        "model": "JMHA-300-4-D-1.0",
+        "generic": true,
+        "pca": "F879926-997",
+        "connector": "F879930",
+        "singleSupply": false,
+        "offsetRatio": 2.6686,
+        "gain": 9.0968
+    },
+    "02550431-3124": {
+        "model": "JMHA-300-1-D-2.0",
+        "generic": true,
+        "pca": "F879926-997",
+        "connector": "F879929",
+        "singleSupply": false,
+        "offsetRatio": 2.6686,
+        "gain": 4.5484
+    },
+    "02550431-3424": {
+        "model": "JMHA-300-4-D-2.0",
+        "generic": true,
+        "pca": "F879926-997",
+        "connector": "F879930",
+        "singleSupply": false,
+        "offsetRatio": 2.6686,
+        "gain": 4.5484
+    },
+    "02550431-3126": {
+        "model": "JMHA-300-1-D-4.0",
+        "generic": true,
+        "pca": "F879926-998",
+        "connector": "F879929",
+        "singleSupply": false,
+        "offsetRatio": 2.6686,
+        "gain": 11.371
+    },
+    "02550431-3426": {
+        "model": "JMHA-300-4-D-4.0",
+        "generic": true,
+        "pca": "F879926-998",
+        "connector": "F879930",
+        "singleSupply": false,
+        "offsetRatio": 2.6686,
+        "gain": 11.371
+    },
+    "02550431-3128": {
+        "model": "JMHA-300-1-D-10.0",
+        "generic": true,
+        "pca": "F879926-998",
+        "connector": "F879929",
+        "singleSupply": false,
+        "offsetRatio": 2.6686,
+        "gain": 4.5484
+    },
+    "02550431-3428": {
+        "model": "JMHA-300-4-D-10.0",
+        "generic": true,
+        "pca": "F879926-998",
+        "connector": "F879930",
+        "singleSupply": false,
+        "offsetRatio": 2.6686,
+        "gain": 4.5484
+    },
+    "02550431-3112": {
+        "model": "JMHA-300-1-S-0.5",
+        "generic": true,
+        "pca": "F879926-997",
+        "connector": "F879929",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 12.14
+    },
+    "02550431-3412": {
+        "model": "JMHA-300-4-S-0.5",
+        "generic": true,
+        "pca": "F879926-997",
+        "connector": "F879930",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 12.14
+    },
+    "02550431-3113": {
+        "model": "JMHA-300-1-S-1.0",
+        "generic": true,
+        "pca": "F879926-997",
+        "connector": "F879929",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 6.07
+    },
+    "02550431-3413": {
+        "model": "JMHA-300-4-S-1.0",
+        "generic": true,
+        "pca": "F879926-997",
+        "connector": "F879930",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 6.07
+    },
+    "02550431-3114": {
+        "model": "JMHA-300-1-S-2.0",
+        "generic": true,
+        "pca": "F879926-997",
+        "connector": "F879929",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 3.0350
+    },
+    "02550431-3414": {
+        "model": "JMHA-300-4-S-2.0",
+        "generic": true,
+        "pca": "F879926-997",
+        "connector": "F879930",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 3.0350
+    },
+    "02550431-3116": {
+        "model": "JMHA-300-1-S-4.0",
+        "generic": true,
+        "pca": "F879926-998",
+        "connector": "F879929",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 7.5875
+    },
+    "02550431-3416": {
+        "model": "JMHA-300-4-S-4.0",
+        "generic": true,
+        "pca": "F879926-998",
+        "connector": "F879930",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 7.5875
+    },
+    "02550431-3118": {
+        "model": "JMHA-300-1-S-10.0",
+        "generic": true,
+        "pca": "F879926-998",
+        "connector": "F879929",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 3.0350
+    },
+    "02550431-3418": {
+        "model": "JMHA-300-4-S-10.0",
+        "generic": true,
+        "pca": "F879926-998",
+        "connector": "F879930",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 3.0350
+    },
+    "02550431-3132": {
+        "model": "JMHA-300-1-L-0.5",
+        "generic": true,
+        "pca": "F879926-997",
+        "connector": "F879929",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 12.14
+    },
+    "02550431-3432": {
+        "model": "JMHA-300-4-L-0.5",
+        "generic": true,
+        "pca": "F879926-997",
+        "connector": "F879930",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 12.14
+    },
+    "02550431-3133": {
+        "model": "JMHA-300-1-L-1.0",
+        "generic": true,
+        "pca": "F879926-997",
+        "connector": "F879929",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 6.07
+    },
+    "02550431-3433": {
+        "model": "JMHA-300-4-L-1.0",
+        "generic": true,
+        "pca": "F879926-997",
+        "connector": "F879930",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 6.07
+    },
+    "02550431-3134": {
+        "model": "JMHA-300-1-L-2.0",
+        "generic": true,
+        "pca": "F879926-997",
+        "connector": "F879929",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 3.0350
+    },
+    "02550431-3434": {
+        "model": "JMHA-300-4-L-2.0",
+        "generic": true,
+        "pca": "F879926-997",
+        "connector": "F879930",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 3.0350
+    },
+    "02550431-3136": {
+        "model": "JMHA-300-1-L-4.0",
+        "generic": true,
+        "pca": "F879926-998",
+        "connector": "F879929",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 7.5875
+    },
+    "02550431-3436": {
+        "model": "JMHA-300-4-L-4.0",
+        "generic": true,
+        "pca": "F879926-998",
+        "connector": "F879930",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 7.5875
+    },
+    "02550431-3138": {
+        "model": "JMHA-300-1-L-10.0",
+        "generic": true,
+        "pca": "F879926-998",
+        "connector": "F879929",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 3.0350
+    },
+    "02550431-3438": {
+        "model": "JMHA-300-4-L-10.0",
+        "generic": true,
+        "pca": "F879926-998",
+        "connector": "F879930",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 3.0350
+    },
+    "02550433-1124": {
+        "model": "JMHI-100-1-D-14.5",
+        "generic": true,
+        "pca": "F879926-999",
+        "connector": "F879929",
+        "singleSupply": false,
+        "offsetRatio": 2.6686,
+        "gain": 36.3872
+    },
+    "02550433-1424": {
+        "model": "JMHI-100-4-D-14.5",
+        "generic": true,
+        "pca": "F879926-999",
+        "connector": "F879930",
+        "singleSupply": false,
+        "offsetRatio": 2.6686,
+        "gain": 36.3872
+    },
+    "02550433-1126": {
+        "model": "JMHI-100-1-D-30",
+        "generic": true,
+        "pca": "F879926-999",
+        "connector": "F879929",
+        "singleSupply": false,
+        "offsetRatio": 2.6686,
+        "gain": 18.1936
+    },
+    "02550433-1426": {
+        "model": "JMHI-100-4-D-30",
+        "generic": true,
+        "pca": "F879926-999",
+        "connector": "F879930",
+        "singleSupply": false,
+        "offsetRatio": 2.6686,
+        "gain": 18.1936
+    },
+    "02550433-1128": {
+        "model": "JMHI-100-1-D-60",
+        "generic": true,
+        "pca": "F879926-999",
+        "connector": "F879929",
+        "singleSupply": false,
+        "offsetRatio": 2.6686,
+        "gain": 13.6452
+    },
+    "02550433-1428": {
+        "model": "JMHI-100-4-D-60",
+        "generic": true,
+        "pca": "F879926-999",
+        "connector": "F879930",
+        "singleSupply": false,
+        "offsetRatio": 2.6686,
+        "gain": 13.6452
+    },
+    "02550433-1129": {
+        "model": "JMHI-100-1-D-90",
+        "generic": true,
+        "pca": "F879926-999",
+        "connector": "F879929",
+        "singleSupply": false,
+        "offsetRatio": 2.6686,
+        "gain": 9.0968
+    },
+    "02550433-1429": {
+        "model": "JMHI-100-4-D-90",
+        "generic": true,
+        "pca": "F879926-999",
+        "connector": "F879930",
+        "singleSupply": false,
+        "offsetRatio": 2.6686,
+        "gain": 9.0968
+    },
+    "02550433-1114": {
+        "model": "JMHI-100-1-S-14.5",
+        "generic": true,
+        "pca": "F879926-999",
+        "connector": "F879929",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 24.28
+    },
+    "02550433-1414": {
+        "model": "JMHI-100-4-S-14.5",
+        "generic": true,
+        "pca": "F879926-999",
+        "connector": "F879930",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 24.28
+    },
+    "02550433-1116": {
+        "model": "JMHI-100-1-S-30",
+        "generic": true,
+        "pca": "F879926-999",
+        "connector": "F879929",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 12.14
+    },
+    "02550433-1416": {
+        "model": "JMHI-100-4-S-30",
+        "generic": true,
+        "pca": "F879926-999",
+        "connector": "F879930",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 12.14
+    },
+    "02550433-1118": {
+        "model": "JMHI-100-1-S-60",
+        "generic": true,
+        "pca": "F879926-999",
+        "connector": "F879929",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 9.105
+    },
+    "02550433-1418": {
+        "model": "JMHI-100-4-S-60",
+        "generic": true,
+        "pca": "F879926-999",
+        "connector": "F879930",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 9.105
+    },
+    "02550433-1119": {
+        "model": "JMHI-100-1-S-90",
+        "generic": true,
+        "pca": "F879926-999",
+        "connector": "F879929",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 6.07
+    },
+    "02550433-1419": {
+        "model": "JMHI-100-4-S-90",
+        "generic": true,
+        "pca": "F879926-999",
+        "connector": "F879930",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 6.07
+    },
+    "02550433-1134": {
+        "model": "JMHI-100-1-L-14.5",
+        "generic": true,
+        "pca": "F879926-999",
+        "connector": "F879929",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 24.28
+    },
+    "02550433-1434": {
+        "model": "JMHI-100-4-L-14.5",
+        "generic": true,
+        "pca": "F879926-999",
+        "connector": "F879930",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 24.28
+    },
+    "02550433-1136": {
+        "model": "JMHI-100-1-L-30",
+        "generic": true,
+        "pca": "F879926-999",
+        "connector": "F879929",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 12.14
+    },
+    "02550433-1436": {
+        "model": "JMHI-100-4-L-30",
+        "generic": true,
+        "pca": "F879926-999",
+        "connector": "F879930",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 12.14
+    },
+    "02550433-1138": {
+        "model": "JMHI-100-1-L-60",
+        "generic": true,
+        "pca": "F879926-999",
+        "connector": "F879929",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 9.105
+    },
+    "02550433-1438": {
+        "model": "JMHI-100-4-L-60",
+        "generic": true,
+        "pca": "F879926-999",
+        "connector": "F879930",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 9.105
+    },
+    "02550433-1139": {
+        "model": "JMHI-100-1-L-90",
+        "generic": true,
+        "pca": "F879926-999",
+        "connector": "F879929",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 6.07
+    },
+    "02550433-1439": {
+        "model": "JMHI-100-4-L-90",
+        "generic": true,
+        "pca": "F879926-999",
+        "connector": "F879930",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 6.07
+    },
+    "02550433-2124": {
+        "model": "JMHI-200-1-D-14.5",
+        "generic": true,
+        "pca": "F879926-999",
+        "connector": "F879929",
+        "singleSupply": false,
+        "offsetRatio": 2.6686,
+        "gain": 36.3872
+    },
+    "02550433-2424": {
+        "model": "JMHI-200-4-D-14.5",
+        "generic": true,
+        "pca": "F879926-999",
+        "connector": "F879930",
+        "singleSupply": false,
+        "offsetRatio": 2.6686,
+        "gain": 36.3872
+    },
+    "02550433-2126": {
+        "model": "JMHI-200-1-D-30",
+        "generic": true,
+        "pca": "F879926-999",
+        "connector": "F879929",
+        "singleSupply": false,
+        "offsetRatio": 2.6686,
+        "gain": 18.1936
+    },
+    "02550433-2426": {
+        "model": "JMHI-200-4-D-30",
+        "generic": true,
+        "pca": "F879926-999",
+        "connector": "F879930",
+        "singleSupply": false,
+        "offsetRatio": 2.6686,
+        "gain": 18.1936
+    },
+    "02550433-2128": {
+        "model": "JMHI-200-1-D-60",
+        "generic": true,
+        "pca": "F879926-999",
+        "connector": "F879929",
+        "singleSupply": false,
+        "offsetRatio": 2.6686,
+        "gain": 13.6452
+    },
+    "02550433-2428": {
+        "model": "JMHI-200-4-D-60",
+        "generic": true,
+        "pca": "F879926-999",
+        "connector": "F879930",
+        "singleSupply": false,
+        "offsetRatio": 2.6686,
+        "gain": 13.6452
+    },
+    "02550433-2129": {
+        "model": "JMHI-200-1-D-90",
+        "generic": true,
+        "pca": "F879926-999",
+        "connector": "F879929",
+        "singleSupply": false,
+        "offsetRatio": 2.6686,
+        "gain": 9.0968
+    },
+    "02550433-2429": {
+        "model": "JMHI-200-4-D-90",
+        "generic": true,
+        "pca": "F879926-999",
+        "connector": "F879930",
+        "singleSupply": false,
+        "offsetRatio": 2.6686,
+        "gain": 9.0968
+    },
+    "02550433-2114": {
+        "model": "JMHI-200-1-S-14.5",
+        "generic": true,
+        "pca": "F879926-999",
+        "connector": "F879929",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 24.28
+    },
+    "02550433-2414": {
+        "model": "JMHI-200-4-S-14.5",
+        "generic": true,
+        "pca": "F879926-999",
+        "connector": "F879930",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 24.28
+    },
+    "02550433-2116": {
+        "model": "JMHI-200-1-S-30",
+        "generic": true,
+        "pca": "F879926-999",
+        "connector": "F879929",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 12.14
+    },
+    "02550433-2416": {
+        "model": "JMHI-200-4-S-30",
+        "generic": true,
+        "pca": "F879926-999",
+        "connector": "F879930",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 12.14
+    },
+    "02550433-2118": {
+        "model": "JMHI-200-1-S-60",
+        "generic": true,
+        "pca": "F879926-999",
+        "connector": "F879929",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 9.105
+    },
+    "02550433-2418": {
+        "model": "JMHI-200-4-S-60",
+        "generic": true,
+        "pca": "F879926-999",
+        "connector": "F879930",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 9.105
+    },
+    "02550433-2119": {
+        "model": "JMHI-200-1-S-90",
+        "generic": true,
+        "pca": "F879926-999",
+        "connector": "F879929",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 6.07
+    },
+    "02550433-2419": {
+        "model": "JMHI-200-4-S-90",
+        "generic": true,
+        "pca": "F879926-999",
+        "connector": "F879930",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 6.07
+    },
+    "02550433-2134": {
+        "model": "JMHI-200-1-L-14.5",
+        "generic": true,
+        "pca": "F879926-999",
+        "connector": "F879929",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 24.28
+    },
+    "02550433-2434": {
+        "model": "JMHI-200-4-L-14.5",
+        "generic": true,
+        "pca": "F879926-999",
+        "connector": "F879930",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 24.28
+    },
+    "02550433-2136": {
+        "model": "JMHI-200-1-L-30",
+        "generic": true,
+        "pca": "F879926-999",
+        "connector": "F879929",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 12.14
+    },
+    "02550433-2436": {
+        "model": "JMHI-200-4-L-30",
+        "generic": true,
+        "pca": "F879926-999",
+        "connector": "F879930",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 12.14
+    },
+    "02550433-2138": {
+        "model": "JMHI-200-1-L-60",
+        "generic": true,
+        "pca": "F879926-999",
+        "connector": "F879929",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 9.105
+    },
+    "02550433-2438": {
+        "model": "JMHI-200-4-L-60",
+        "generic": true,
+        "pca": "F879926-999",
+        "connector": "F879930",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 9.105
+    },
+    "02550433-2139": {
+        "model": "JMHI-200-1-L-90",
+        "generic": true,
+        "pca": "F879926-999",
+        "connector": "F879929",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 6.07
+    },
+    "02550433-2439": {
+        "model": "JMHI-200-4-L-90",
+        "generic": true,
+        "pca": "F879926-999",
+        "connector": "F879930",
+        "singleSupply": true,
+        "offsetRatio": 32.0543,
+        "gain": 6.07
+    }
+}

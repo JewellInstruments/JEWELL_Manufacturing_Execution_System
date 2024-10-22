@@ -1,0 +1,17 @@
+{
+	"cycles": {
+			"0": "calibration",
+			"1": "verification"
+	},
+	"axes": {
+			"0": "X",
+			"1": "Y",
+			"2": "Z"
+	},
+	"mounting": {
+			"0": "Mount UUT such that the connector faces towards the operator",
+		    "1": "Mount UUT such that the connector faces away the operator",
+		    "2": "Mount UUT such that the connector faces towards the left",
+		    "3": "Mount UUT such that the connector faces towards the right"
+	}
+}

@@ -1,0 +1,194 @@
+{
+    "dept": 321,
+    "serialInfo": {
+        "technology": "MEMS",
+        "sensorType": "ANALOG",
+        "productFamily": "RUBY"
+    },
+    "basenumbers": [
+        "02550431",
+        "02550433"
+    ],
+    "powerInfo": {
+        "GND": {
+            "target": 0,
+            "tolerance": 0.1
+        },
+        "PWR+": {
+            "target": 15,
+            "tolerance": 2
+        },
+        "PWR-": {
+            "target": 15,
+            "tolerance": 2
+        },
+        "VCC": {
+            "target": 3.3,
+            "tolerance": 0.2
+        },
+        "mems_X": {
+            "target": 0.9,
+            "tolerance": 0.2
+        },
+        "mems_Y": {
+            "target": 0.9,
+            "tolerance": 0.2
+        },
+        "mems_Z": {
+            "target": 1.3,
+            "tolerance": 0.2
+        },
+        "mems_T": {
+            "target": 1,
+            "tolerance": 0.3
+        }
+    },
+    "assy": {
+        "kanban": {
+            "timeout": 5,
+            "allowedModels": [
+                "L",
+                "D",
+                "S"
+            ],
+            "image": "Jewell_Instruments_Logo.png",
+            "text": "assy instructions - kanban",
+            "prevStage": null,
+            "nextStage": "sbr1a",
+            "miniStatus": "Waiting for operator to collect kit",
+            "func": "kanban"
+        },
+        "sbr1a": {
+            "timeout": 3,
+            "allowedModels": [
+                "L",
+                "D",
+                "S"
+            ],
+            "image": "ruby_pca_sbr1a.png",
+            "text": "assy instructions - sbr1a",
+            "prevStage": "kanban",
+            "nextStage": "sbr1b",
+            "miniStatus": "Waiting for operator to install SBRs",
+            "func": "sbr1a"
+        },
+        "sbr1b": {
+            "timeout": 2,
+            "allowedModels": [
+                "L",
+                "S"
+            ],
+            "image": "ruby_pca_sbr1b.png",
+            "text": "Populate the following SBRs: R3 - 30k,  R7 - 0 Ohm",
+            "prevStage": "sbr1a",
+            "nextStage": "sbr2a",
+            "miniStatus": "Waiting for operator to install SBRs"
+        },
+        "sbr2a": {
+            "timeout": 6,
+            "allowedModels": [
+                "L"
+            ],
+            "image": "ruby_pca_sbr2a.png",
+            "text": "Remove the following SBRs: R31, R36, R41, R47, R57, R66",
+            "prevStage": "sbr1b",
+            "nextStage": "sbr2b",
+            "miniStatus": "Waiting for operator to install SBRs"
+        },
+        "sbr2b": {
+            "timeout": 9,
+            "allowedModels": [
+                "L"
+            ],
+            "image": "ruby_pca_sbr2b.png",
+            "text": "Add the following SBRs: R30, R35, R40, R49, R59, R68, R55, R64, R73 - 0 Ohm",
+            "prevStage": "sbr2a",
+            "nextStage": "preCalSetup",
+            "miniStatus": "Waiting for operator to install SBRs"
+        },
+        "preCalSetup": {
+            "timeout": 1,
+            "allowedModels": [
+                "L",
+                "D",
+                "S"
+            ],
+            "image": "pca_to_fixture.png",
+            "text": "ENSURE DMM AND POWER SUPPLY ARE ON\nInsert PCA into B.O.N test fixture as shown, and click next to begin measurements",
+            "prevStage": "sbr2b",
+            "nextStage": "CalRoutine",
+            "miniStatus": "Waiting for operator to insert PCA into test fixture",
+            "func": "preCalSetup"
+        },
+        "CalRoutine": {
+            "timeout": 5,
+            "allowedModels": [
+                "L",
+                "D",
+                "S"
+            ],
+            "image": "Jewell_Instruments_Logo.png",
+            "text": "Please wait for calibration routine",
+            "prevStage": "preCalSetup",
+            "nextStage": "sbt1a",
+            "miniStatus": "Waiting for calibration routine to finish",
+            "func": "cal"
+        },
+        "sbt1a": {
+            "timeout": 6,
+            "allowedModels": [
+                "L",
+                "D",
+                "S"
+            ],
+            "image": "ruby_pca_sbt1.png",
+            "text": "assy instructions - sbt1a",
+            "prevStage": "preCalSetup",
+            "nextStage": "preVerSetup",
+            "miniStatus": "Waiting for operator to install SBTs",
+            "func": "sbt1a"
+        },
+        "preVerSetup": {
+            "timeout": 1,
+            "allowedModels": [
+                "L",
+                "D",
+                "S"
+            ],
+            "image": "pca_to_fixture.png",
+            "text": "ENSURE DMM AND POWER SUPPLY ARE ON\nInsert PCA into B.O.N test fixture as shown, and click next to begin measurements",
+            "prevStage": "sbt1a",
+            "nextStage": "VerRoutine",
+            "miniStatus": "Waiting for operator to insert PCA into test fixture",
+            "func": "preVerSetup"
+        },
+        "VerRoutine": {
+            "timeout": 5,
+            "allowedModels": [
+                "L",
+                "D",
+                "S"
+            ],
+            "image": "Jewell_Instruments_Logo.png",
+            "text": "Please wait for verification routine",
+            "prevStage": "preVerSetup",
+            "nextStage": "UploadResults",
+            "miniStatus": "Waiting for verification routine to finish",
+            "func": "ver"
+        },
+        "UploadResults": {
+            "timeout": 5,
+            "allowedModels": [
+                "L",
+                "D",
+                "S"
+            ],
+            "image": "Jewell_Instruments_Logo.png",
+            "text": "assy instructions - UploadResults",
+            "prevStage": "preVerSetup",
+            "nextStage": null,
+            "miniStatus": "Uploading Results",
+            "func": "results"
+        }
+    }
+}
