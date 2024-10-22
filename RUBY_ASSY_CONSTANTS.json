@@ -35,7 +35,7 @@
             "tolerance": 0.2
         },
         "mems_Z": {
-            "target": 1.3,
+            "target": 0.5,
             "tolerance": 0.2
         },
         "mems_T": {
