@@ -190,7 +190,7 @@ class Subroutine:
 
     # changes mini status window in program to check errors, returns error signals for root cause tracker (cal and ver)
     def showPowerStatus(self, measured):
-        statusList: list = None
+        statusList: list = []
         i = 1
         for key in self.window.support["powerInfo"]:
             label = f"InfoLabel{i}"
@@ -219,7 +219,7 @@ class Subroutine:
 
     # changes mini status window in program to check errors, returns error signals for root cause tracker (ver)
     def showResistorStatus(self, res_array):
-        statusList: list = None
+        statusList: list = []
         tolerance = 1
         for i in range(int(self.window.desiredPart["model"].split("-")[1][0])):
             meas_gain = 1 + (
@@ -402,7 +402,7 @@ class Subroutine:
         status = self.showPowerStatus(
             self.publishInfo[self.window.stage_name]["CalMeasure"]
         )
-        if status is not None:
+        if status:
             postDict = {
                 "part_no": self.window.widget.PartNumberLineEdit.text(),
                 "work_order": self.window.widget.JobNumberComboBox.currentText(),
@@ -442,7 +442,7 @@ class Subroutine:
         status = self.showResistorStatus(
             self.publishInfo[self.window.stage_name]["VerMeasure"]
         )
-        if status is not None:
+        if status:
             postDict = {
                 "part_no": self.window.widget.PartNumberLineEdit.text(),
                 "work_order": self.window.widget.JobNumberComboBox.currentText(),

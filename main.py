@@ -11,12 +11,13 @@ import time
 from threading import Thread
 
 import requests
-from LoginPopup import Ui_Dialog
-from network import api_calls
 from PySide6 import QtCore
 from PySide6.QtCore import QTimer, Signal
 from PySide6.QtGui import QPixmap
 from PySide6.QtWidgets import QApplication, QDialog, QMainWindow, QWidget
+
+from LoginPopup import Ui_Dialog
+from network import api_calls
 from RUBY_UI import Ui_MainWindow
 
 
