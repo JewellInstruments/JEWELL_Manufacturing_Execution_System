@@ -128,9 +128,6 @@ class Subroutine:
 
     # calculates the voltage offset SBT (nearest E96 value)(based on the REV 5 schematic for RUBY)
     def calculate_offset_SBT(self, offsetRatio: float, Rfollower: float, RVbias: float):
-        print(
-            -((offsetRatio * RVbias * Rfollower) / ((offsetRatio * Rfollower) - RVbias))
-        )
         if (
             -((offsetRatio * RVbias * Rfollower) / ((offsetRatio * Rfollower) - RVbias))
             < 0
@@ -146,12 +143,11 @@ class Subroutine:
 
     # calculates the voltage gain SBT (nearest E96 value)(based on the REV 5 schematic for RUBY)
     def calculate_gain_SBT(self, gain: float, Rgnd: float, Rsbr: float):
-        print(-(gain * Rsbr * Rgnd) + (Rsbr * Rgnd) / ((gain * Rgnd) - Rgnd - Rsbr))
-        if (-(gain * Rsbr * Rgnd) + (Rsbr * Rgnd) / ((gain * Rgnd) - Rgnd - Rsbr)) < 0:
+        if (-(gain * Rsbr * Rgnd) / ((gain * Rgnd) - Rsbr)) < 0:
             return 0
         return find_nearest(
             E96,
-            ((-(gain * Rsbr * Rgnd) + (Rsbr * Rgnd)) / ((gain * Rgnd) - Rgnd - Rsbr)),
+            (-(gain * Rsbr * Rgnd) / ((gain * Rgnd) - Rsbr)),
         )
 
     # function to calculate all the SBTs for RUBY (REV 5 schematic)
@@ -167,13 +163,13 @@ class Subroutine:
             gain, measured["R_gnd_Z"], measured["R_scale_Z"]
         )
         outputDict["offset_X"] = self.calculate_offset_SBT(
-            offsetRatio, measured["R_bias_X"], measured["R_offset_X"]
+            offsetRatio, measured["R_offset_X"], measured["R_bias_X"]
         )
         outputDict["offset_Y"] = self.calculate_offset_SBT(
-            offsetRatio, measured["R_bias_Y"], measured["R_offset_Y"]
+            offsetRatio, measured["R_offset_Y"], measured["R_bias_Y"]
         )
         outputDict["offset_Z"] = self.calculate_offset_SBT(
-            offsetRatio, measured["R_bias_Z"], measured["R_offset_Z"]
+            offsetRatio, measured["R_offset_Z"], measured["R_bias_Z"]
         )
         return outputDict
 
@@ -207,7 +203,7 @@ class Subroutine:
                         child.setText(
                             f"{key} ({measured[key]:.3f}) within tol: {targetMeasurement:.1f} +/- {measurementTolerance:.2f}"
                         )
-                        child.setStyleSheet("background-color: green")
+                        child.setStyleSheet("background-color: lightgreen")
                 case False:
                     child = self.window.findChild(QLabel, label)
                     if child is not None:
@@ -420,7 +416,7 @@ class Subroutine:
         self.window.widget.ProgramStatusLabel.setText("Calibration Finished")
         self.window.widget.TextLabel.setText("Remove PCA from B.O.N test fixture")
         self.window.widget.PreviousButton.setEnabled(True)
-        print(self.publishInfo)
+        print(json.dumps(self.publishInfo, indent=4))
 
     # checks power distribution again, ensures SBTs provide gain within tolerance
     def verificationRoutine(self):
