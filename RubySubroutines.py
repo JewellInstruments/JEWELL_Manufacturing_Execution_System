@@ -93,7 +93,6 @@ class Subroutine:
 
         self.window.widget.TextLabel.setText(
             f"""To build model: {model} you will need:
-
             PCA: {pca}
             Baseplate: {baseplate}
             Connector: {connector}
@@ -101,7 +100,6 @@ class Subroutine:
             PCA screw (4x): {pcaScrew}
             Housing screw (4x): {housingScrew}
             O-ring: {oRing}
-
             SERIAL#: {self.serial}"""
         )
 
