@@ -146,8 +146,8 @@ class Subroutine:
 
     # calculates the voltage gain SBT (nearest E96 value)(based on the REV 5 schematic for RUBY)
     def calculate_gain_SBT(self, gain: float, Rgnd: float, Rsbr: float):
-        print(-(gain * Rsbr * Rgnd) + (Rsbr * Rgnd)) / ((gain * Rgnd) - Rgnd - Rsbr)
-        if (-(gain * Rsbr * Rgnd) + (Rsbr * Rgnd)) / ((gain * Rgnd) - Rgnd - Rsbr) < 0:
+        print(-(gain * Rsbr * Rgnd) + (Rsbr * Rgnd) / ((gain * Rgnd) - Rgnd - Rsbr))
+        if (-(gain * Rsbr * Rgnd) + (Rsbr * Rgnd) / ((gain * Rgnd) - Rgnd - Rsbr)) < 0:
             return 0
         return find_nearest(
             E96,
