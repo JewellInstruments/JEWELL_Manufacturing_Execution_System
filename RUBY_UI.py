@@ -136,7 +136,7 @@ class Ui_MainWindow(object):
         palette.setBrush(QPalette.Disabled, QPalette.ToolTipText, brush)
         self.SBRButton.setPalette(palette)
         font = QFont()
-        font.setPointSize(12)
+        font.setPointSize(14)
         self.SBRButton.setFont(font)
         self.SBRButton.setStyleSheet(u"background-color:salmon")
 
@@ -232,7 +232,9 @@ class Ui_MainWindow(object):
         self.gridLayout_2.setContentsMargins(15, -1, 15, -1)
         self.SBRRecordLabel = QLabel(self.page_2)
         self.SBRRecordLabel.setObjectName(u"SBRRecordLabel")
-        self.SBRRecordLabel.setFont(font)
+        font1 = QFont()
+        font1.setPointSize(12)
+        self.SBRRecordLabel.setFont(font1)
         self.SBRRecordLabel.setStyleSheet(u"background-color:gold")
         self.SBRRecordLabel.setAlignment(Qt.AlignCenter)
         self.SBRRecordLabel.setWordWrap(True)
@@ -241,7 +243,7 @@ class Ui_MainWindow(object):
 
         self.SBRTimeLabel = QLabel(self.page_2)
         self.SBRTimeLabel.setObjectName(u"SBRTimeLabel")
-        self.SBRTimeLabel.setFont(font)
+        self.SBRTimeLabel.setFont(font1)
         self.SBRTimeLabel.setStyleSheet(u"background-color:lightgray")
         self.SBRTimeLabel.setAlignment(Qt.AlignCenter)
         self.SBRTimeLabel.setWordWrap(True)
@@ -250,7 +252,7 @@ class Ui_MainWindow(object):
 
         self.CalLabel = QLabel(self.page_2)
         self.CalLabel.setObjectName(u"CalLabel")
-        self.CalLabel.setFont(font)
+        self.CalLabel.setFont(font1)
         self.CalLabel.setStyleSheet(u"background-color:lightgray")
         self.CalLabel.setAlignment(Qt.AlignCenter)
         self.CalLabel.setWordWrap(True)
@@ -259,7 +261,7 @@ class Ui_MainWindow(object):
 
         self.CalTimeLabel = QLabel(self.page_2)
         self.CalTimeLabel.setObjectName(u"CalTimeLabel")
-        self.CalTimeLabel.setFont(font)
+        self.CalTimeLabel.setFont(font1)
         self.CalTimeLabel.setStyleSheet(u"background-color:lightgray")
         self.CalTimeLabel.setAlignment(Qt.AlignCenter)
         self.CalTimeLabel.setWordWrap(True)
@@ -268,7 +270,7 @@ class Ui_MainWindow(object):
 
         self.SBTLabel = QLabel(self.page_2)
         self.SBTLabel.setObjectName(u"SBTLabel")
-        self.SBTLabel.setFont(font)
+        self.SBTLabel.setFont(font1)
         self.SBTLabel.setStyleSheet(u"background-color:lightgray")
         self.SBTLabel.setAlignment(Qt.AlignCenter)
         self.SBTLabel.setWordWrap(True)
@@ -277,7 +279,7 @@ class Ui_MainWindow(object):
 
         self.SBTTimeLabel = QLabel(self.page_2)
         self.SBTTimeLabel.setObjectName(u"SBTTimeLabel")
-        self.SBTTimeLabel.setFont(font)
+        self.SBTTimeLabel.setFont(font1)
         self.SBTTimeLabel.setStyleSheet(u"background-color:lightgray")
         self.SBTTimeLabel.setAlignment(Qt.AlignCenter)
         self.SBTTimeLabel.setWordWrap(True)
@@ -286,7 +288,7 @@ class Ui_MainWindow(object):
 
         self.VerificationLabel = QLabel(self.page_2)
         self.VerificationLabel.setObjectName(u"VerificationLabel")
-        self.VerificationLabel.setFont(font)
+        self.VerificationLabel.setFont(font1)
         self.VerificationLabel.setStyleSheet(u"background-color:lightgray")
         self.VerificationLabel.setAlignment(Qt.AlignCenter)
         self.VerificationLabel.setWordWrap(True)
@@ -295,7 +297,7 @@ class Ui_MainWindow(object):
 
         self.VerificationTimeLabel = QLabel(self.page_2)
         self.VerificationTimeLabel.setObjectName(u"VerificationTimeLabel")
-        self.VerificationTimeLabel.setFont(font)
+        self.VerificationTimeLabel.setFont(font1)
         self.VerificationTimeLabel.setStyleSheet(u"background-color:lightgray")
         self.VerificationTimeLabel.setAlignment(Qt.AlignCenter)
         self.VerificationTimeLabel.setWordWrap(True)
@@ -304,7 +306,7 @@ class Ui_MainWindow(object):
 
         self.SBRLabel = QLabel(self.page_2)
         self.SBRLabel.setObjectName(u"SBRLabel")
-        self.SBRLabel.setFont(font)
+        self.SBRLabel.setFont(font1)
         self.SBRLabel.setStyleSheet(u"background-color:lightgray")
         self.SBRLabel.setAlignment(Qt.AlignCenter)
         self.SBRLabel.setWordWrap(True)
@@ -313,7 +315,7 @@ class Ui_MainWindow(object):
 
         self.OverallLabel = QLabel(self.page_2)
         self.OverallLabel.setObjectName(u"OverallLabel")
-        self.OverallLabel.setFont(font)
+        self.OverallLabel.setFont(font1)
         self.OverallLabel.setStyleSheet(u"background-color:lightgray")
         self.OverallLabel.setAlignment(Qt.AlignCenter)
         self.OverallLabel.setWordWrap(True)
@@ -322,7 +324,7 @@ class Ui_MainWindow(object):
 
         self.OverallTimeLabel = QLabel(self.page_2)
         self.OverallTimeLabel.setObjectName(u"OverallTimeLabel")
-        self.OverallTimeLabel.setFont(font)
+        self.OverallTimeLabel.setFont(font1)
         self.OverallTimeLabel.setStyleSheet(u"background-color:lightgray")
         self.OverallTimeLabel.setAlignment(Qt.AlignCenter)
         self.OverallTimeLabel.setWordWrap(True)
@@ -331,7 +333,7 @@ class Ui_MainWindow(object):
 
         self.SBRRecordTimeLabel = QLabel(self.page_2)
         self.SBRRecordTimeLabel.setObjectName(u"SBRRecordTimeLabel")
-        self.SBRRecordTimeLabel.setFont(font)
+        self.SBRRecordTimeLabel.setFont(font1)
         self.SBRRecordTimeLabel.setStyleSheet(u"background-color:gold")
         self.SBRRecordTimeLabel.setAlignment(Qt.AlignCenter)
         self.SBRRecordTimeLabel.setWordWrap(True)
@@ -340,7 +342,7 @@ class Ui_MainWindow(object):
 
         self.CalRecordLabel = QLabel(self.page_2)
         self.CalRecordLabel.setObjectName(u"CalRecordLabel")
-        self.CalRecordLabel.setFont(font)
+        self.CalRecordLabel.setFont(font1)
         self.CalRecordLabel.setStyleSheet(u"background-color:gold")
         self.CalRecordLabel.setAlignment(Qt.AlignCenter)
         self.CalRecordLabel.setWordWrap(True)
@@ -349,7 +351,7 @@ class Ui_MainWindow(object):
 
         self.CalRecordTimeLabel = QLabel(self.page_2)
         self.CalRecordTimeLabel.setObjectName(u"CalRecordTimeLabel")
-        self.CalRecordTimeLabel.setFont(font)
+        self.CalRecordTimeLabel.setFont(font1)
         self.CalRecordTimeLabel.setStyleSheet(u"background-color:gold")
         self.CalRecordTimeLabel.setAlignment(Qt.AlignCenter)
         self.CalRecordTimeLabel.setWordWrap(True)
@@ -358,7 +360,7 @@ class Ui_MainWindow(object):
 
         self.SBTRecordLabel = QLabel(self.page_2)
         self.SBTRecordLabel.setObjectName(u"SBTRecordLabel")
-        self.SBTRecordLabel.setFont(font)
+        self.SBTRecordLabel.setFont(font1)
         self.SBTRecordLabel.setStyleSheet(u"background-color:gold")
         self.SBTRecordLabel.setAlignment(Qt.AlignCenter)
         self.SBTRecordLabel.setWordWrap(True)
@@ -367,7 +369,7 @@ class Ui_MainWindow(object):
 
         self.SBTRecordTimeLabel = QLabel(self.page_2)
         self.SBTRecordTimeLabel.setObjectName(u"SBTRecordTimeLabel")
-        self.SBTRecordTimeLabel.setFont(font)
+        self.SBTRecordTimeLabel.setFont(font1)
         self.SBTRecordTimeLabel.setStyleSheet(u"background-color:gold")
         self.SBTRecordTimeLabel.setAlignment(Qt.AlignCenter)
         self.SBTRecordTimeLabel.setWordWrap(True)
@@ -376,7 +378,7 @@ class Ui_MainWindow(object):
 
         self.VerificationRecordLabel = QLabel(self.page_2)
         self.VerificationRecordLabel.setObjectName(u"VerificationRecordLabel")
-        self.VerificationRecordLabel.setFont(font)
+        self.VerificationRecordLabel.setFont(font1)
         self.VerificationRecordLabel.setStyleSheet(u"background-color:gold")
         self.VerificationRecordLabel.setAlignment(Qt.AlignCenter)
         self.VerificationRecordLabel.setWordWrap(True)
@@ -385,7 +387,7 @@ class Ui_MainWindow(object):
 
         self.VerificationRecordTimeLabel = QLabel(self.page_2)
         self.VerificationRecordTimeLabel.setObjectName(u"VerificationRecordTimeLabel")
-        self.VerificationRecordTimeLabel.setFont(font)
+        self.VerificationRecordTimeLabel.setFont(font1)
         self.VerificationRecordTimeLabel.setStyleSheet(u"background-color:gold")
         self.VerificationRecordTimeLabel.setAlignment(Qt.AlignCenter)
         self.VerificationRecordTimeLabel.setWordWrap(True)
@@ -394,7 +396,7 @@ class Ui_MainWindow(object):
 
         self.OverallRecordLabel = QLabel(self.page_2)
         self.OverallRecordLabel.setObjectName(u"OverallRecordLabel")
-        self.OverallRecordLabel.setFont(font)
+        self.OverallRecordLabel.setFont(font1)
         self.OverallRecordLabel.setStyleSheet(u"background-color:gold")
         self.OverallRecordLabel.setAlignment(Qt.AlignCenter)
         self.OverallRecordLabel.setWordWrap(True)
@@ -403,7 +405,7 @@ class Ui_MainWindow(object):
 
         self.OverallRecordTimeLabel = QLabel(self.page_2)
         self.OverallRecordTimeLabel.setObjectName(u"OverallRecordTimeLabel")
-        self.OverallRecordTimeLabel.setFont(font)
+        self.OverallRecordTimeLabel.setFont(font1)
         self.OverallRecordTimeLabel.setStyleSheet(u"background-color:gold")
         self.OverallRecordTimeLabel.setAlignment(Qt.AlignCenter)
         self.OverallRecordTimeLabel.setWordWrap(True)
@@ -418,9 +420,9 @@ class Ui_MainWindow(object):
         self.TextLabel.setObjectName(u"TextLabel")
         sizePolicy1.setHeightForWidth(self.TextLabel.sizePolicy().hasHeightForWidth())
         self.TextLabel.setSizePolicy(sizePolicy1)
-        font1 = QFont()
-        font1.setPointSize(14)
-        self.TextLabel.setFont(font1)
+        font2 = QFont()
+        font2.setPointSize(16)
+        self.TextLabel.setFont(font2)
         self.TextLabel.setStyleSheet(u"background-color: lightgrey")
         self.TextLabel.setAlignment(Qt.AlignCenter)
         self.TextLabel.setWordWrap(True)
@@ -437,7 +439,7 @@ class Ui_MainWindow(object):
         self.PreviousButton.setEnabled(False)
         sizePolicy1.setHeightForWidth(self.PreviousButton.sizePolicy().hasHeightForWidth())
         self.PreviousButton.setSizePolicy(sizePolicy1)
-        self.PreviousButton.setFont(font1)
+        self.PreviousButton.setFont(font2)
         self.PreviousButton.setStyleSheet(u"background-color:lightblue")
 
         self.horizontalLayout.addWidget(self.PreviousButton)
@@ -458,7 +460,7 @@ class Ui_MainWindow(object):
         self.NextButton.setEnabled(False)
         sizePolicy1.setHeightForWidth(self.NextButton.sizePolicy().hasHeightForWidth())
         self.NextButton.setSizePolicy(sizePolicy1)
-        self.NextButton.setFont(font1)
+        self.NextButton.setFont(font2)
         self.NextButton.setStyleSheet(u"background-color:lightblue")
         self.NextButton.setProperty("Ready", False)
 
@@ -491,20 +493,20 @@ class Ui_MainWindow(object):
         self.formLayout.setVerticalSpacing(10)
         self.PartNumberLabel = QLabel(self.groupBox)
         self.PartNumberLabel.setObjectName(u"PartNumberLabel")
-        self.PartNumberLabel.setFont(font1)
+        self.PartNumberLabel.setFont(font)
 
         self.formLayout.setWidget(0, QFormLayout.LabelRole, self.PartNumberLabel)
 
         self.JobNumberLabel = QLabel(self.groupBox)
         self.JobNumberLabel.setObjectName(u"JobNumberLabel")
-        self.JobNumberLabel.setFont(font1)
+        self.JobNumberLabel.setFont(font)
 
         self.formLayout.setWidget(1, QFormLayout.LabelRole, self.JobNumberLabel)
 
         self.JobNumberComboBox = QComboBox(self.groupBox)
         self.JobNumberComboBox.addItem("")
         self.JobNumberComboBox.setObjectName(u"JobNumberComboBox")
-        self.JobNumberComboBox.setFont(font1)
+        self.JobNumberComboBox.setFont(font)
 
         self.formLayout.setWidget(1, QFormLayout.FieldRole, self.JobNumberComboBox)
 
@@ -513,7 +515,7 @@ class Ui_MainWindow(object):
         self.PartNumberLineEdit.setEnabled(False)
         sizePolicy.setHeightForWidth(self.PartNumberLineEdit.sizePolicy().hasHeightForWidth())
         self.PartNumberLineEdit.setSizePolicy(sizePolicy)
-        self.PartNumberLineEdit.setFont(font1)
+        self.PartNumberLineEdit.setFont(font)
         self.PartNumberLineEdit.setAlignment(Qt.AlignCenter)
 
         self.formLayout.setWidget(0, QFormLayout.FieldRole, self.PartNumberLineEdit)
@@ -526,12 +528,15 @@ class Ui_MainWindow(object):
 
         self.groupBox_4 = QGroupBox(self.centralwidget)
         self.groupBox_4.setObjectName(u"groupBox_4")
+        font3 = QFont()
+        font3.setPointSize(8)
+        self.groupBox_4.setFont(font3)
         self.verticalLayout_3 = QVBoxLayout(self.groupBox_4)
         self.verticalLayout_3.setObjectName(u"verticalLayout_3")
         self.verticalLayout_3.setContentsMargins(6, 6, 6, 6)
         self.ProgramStatusLabel = QLabel(self.groupBox_4)
         self.ProgramStatusLabel.setObjectName(u"ProgramStatusLabel")
-        self.ProgramStatusLabel.setFont(font1)
+        self.ProgramStatusLabel.setFont(font2)
         self.ProgramStatusLabel.setStyleSheet(u"background-color:lightgrey")
         self.ProgramStatusLabel.setAlignment(Qt.AlignCenter)
         self.ProgramStatusLabel.setWordWrap(True)
@@ -541,10 +546,10 @@ class Ui_MainWindow(object):
 
         self.InfoLabel1 = QLabel(self.groupBox_4)
         self.InfoLabel1.setObjectName(u"InfoLabel1")
-        font2 = QFont()
-        font2.setFamilies([u"Arial"])
-        font2.setPointSize(12)
-        self.InfoLabel1.setFont(font2)
+        font4 = QFont()
+        font4.setFamilies([u"Arial"])
+        font4.setPointSize(12)
+        self.InfoLabel1.setFont(font4)
         self.InfoLabel1.setStyleSheet(u"background-color:lightgrey")
         self.InfoLabel1.setAlignment(Qt.AlignCenter)
 
@@ -552,7 +557,7 @@ class Ui_MainWindow(object):
 
         self.InfoLabel2 = QLabel(self.groupBox_4)
         self.InfoLabel2.setObjectName(u"InfoLabel2")
-        self.InfoLabel2.setFont(font2)
+        self.InfoLabel2.setFont(font4)
         self.InfoLabel2.setStyleSheet(u"background-color:lightgrey")
         self.InfoLabel2.setAlignment(Qt.AlignCenter)
 
@@ -560,7 +565,7 @@ class Ui_MainWindow(object):
 
         self.InfoLabel3 = QLabel(self.groupBox_4)
         self.InfoLabel3.setObjectName(u"InfoLabel3")
-        self.InfoLabel3.setFont(font2)
+        self.InfoLabel3.setFont(font4)
         self.InfoLabel3.setStyleSheet(u"background-color:lightgrey")
         self.InfoLabel3.setAlignment(Qt.AlignCenter)
 
@@ -568,7 +573,7 @@ class Ui_MainWindow(object):
 
         self.InfoLabel4 = QLabel(self.groupBox_4)
         self.InfoLabel4.setObjectName(u"InfoLabel4")
-        self.InfoLabel4.setFont(font2)
+        self.InfoLabel4.setFont(font4)
         self.InfoLabel4.setStyleSheet(u"background-color:lightgrey")
         self.InfoLabel4.setAlignment(Qt.AlignCenter)
 
@@ -576,7 +581,7 @@ class Ui_MainWindow(object):
 
         self.InfoLabel5 = QLabel(self.groupBox_4)
         self.InfoLabel5.setObjectName(u"InfoLabel5")
-        self.InfoLabel5.setFont(font2)
+        self.InfoLabel5.setFont(font4)
         self.InfoLabel5.setStyleSheet(u"background-color:lightgrey")
         self.InfoLabel5.setAlignment(Qt.AlignCenter)
 
@@ -584,7 +589,7 @@ class Ui_MainWindow(object):
 
         self.InfoLabel6 = QLabel(self.groupBox_4)
         self.InfoLabel6.setObjectName(u"InfoLabel6")
-        self.InfoLabel6.setFont(font2)
+        self.InfoLabel6.setFont(font4)
         self.InfoLabel6.setStyleSheet(u"background-color:lightgrey")
         self.InfoLabel6.setAlignment(Qt.AlignCenter)
 
@@ -592,7 +597,7 @@ class Ui_MainWindow(object):
 
         self.InfoLabel7 = QLabel(self.groupBox_4)
         self.InfoLabel7.setObjectName(u"InfoLabel7")
-        self.InfoLabel7.setFont(font2)
+        self.InfoLabel7.setFont(font4)
         self.InfoLabel7.setStyleSheet(u"background-color:lightgrey")
         self.InfoLabel7.setAlignment(Qt.AlignCenter)
 
@@ -600,7 +605,7 @@ class Ui_MainWindow(object):
 
         self.InfoLabel8 = QLabel(self.groupBox_4)
         self.InfoLabel8.setObjectName(u"InfoLabel8")
-        self.InfoLabel8.setFont(font2)
+        self.InfoLabel8.setFont(font4)
         self.InfoLabel8.setStyleSheet(u"background-color:lightgrey")
         self.InfoLabel8.setAlignment(Qt.AlignCenter)
 
