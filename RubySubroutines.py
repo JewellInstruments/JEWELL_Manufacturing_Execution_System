@@ -128,6 +128,9 @@ class Subroutine:
 
     # calculates the voltage offset SBT (nearest E96 value)(based on the REV 5 schematic for RUBY)
     def calculate_offset_SBT(self, offsetRatio: float, Rfollower: float, RVbias: float):
+        print(
+            -((offsetRatio * RVbias * Rfollower) / ((offsetRatio * Rfollower) - RVbias))
+        )
         if (
             -((offsetRatio * RVbias * Rfollower) / ((offsetRatio * Rfollower) - RVbias))
             < 0
@@ -143,6 +146,7 @@ class Subroutine:
 
     # calculates the voltage gain SBT (nearest E96 value)(based on the REV 5 schematic for RUBY)
     def calculate_gain_SBT(self, gain: float, Rgnd: float, Rsbr: float):
+        print(-(gain * Rsbr * Rgnd) + (Rsbr * Rgnd)) / ((gain * Rgnd) - Rgnd - Rsbr)
         if (-(gain * Rsbr * Rgnd) + (Rsbr * Rgnd)) / ((gain * Rgnd) - Rgnd - Rsbr) < 0:
             return 0
         return find_nearest(
@@ -416,6 +420,7 @@ class Subroutine:
         self.window.widget.ProgramStatusLabel.setText("Calibration Finished")
         self.window.widget.TextLabel.setText("Remove PCA from B.O.N test fixture")
         self.window.widget.PreviousButton.setEnabled(True)
+        print(self.publishInfo)
 
     # checks power distribution again, ensures SBTs provide gain within tolerance
     def verificationRoutine(self):
