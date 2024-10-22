@@ -218,8 +218,11 @@ class Subroutine:
     # changes mini status window in program to check errors, returns error signals for root cause tracker (ver)
     def showResistorStatus(self, res_array):
         statusList: list = []
-        tolerance = 1
         for i in range(int(self.window.desiredPart["model"].split("-")[1][0])):
+            targetGain = self.window.desiredPart["gain"]
+            targetOffset = self.window.desiredPart["offsetRatio"]
+            gain_tol = targetGain * 0.05
+            offset_tol = targetOffset * 0.05
             meas_gain = 1 + (
                 res_array[f"R_scale_{self.axis[i]}"]
                 / res_array[f"R_gnd_{self.axis[i]}"]
@@ -229,38 +232,34 @@ class Subroutine:
                 / res_array[f"R_offset_{self.axis[i]}"]
             )
             label = f"InfoLabel{(i*2)+1}"
-            match prim.measurement_within_tol(
-                meas_gain, self.window.desiredPart["gain"], tolerance
-            ):
+            match prim.measurement_within_tol(meas_gain, targetGain, gain_tol):
                 case True:
                     child = self.window.findChild(QLabel, label)
                     if child is not None:
                         child.setText(
-                            f"{self.axis[i]} gain: {meas_gain:.3f} outside tol: {tolerance:.2f}"
+                            f"{self.axis[i]} gain: {meas_gain:.3f} within tol: {targetGain} +/- {gain_tol:.2f}"
                         )
-                        child.setStyleSheet("background-color: green")
+                        child.setStyleSheet("background-color: lightgreen")
                 case False:
                     child = self.window.findChild(QLabel, label)
                     if child is not None:
-                        text = f"{self.axis[i]} gain: {meas_gain:.3f} outside tol: {tolerance:.2f}"
+                        text = f"{self.axis[i]} gain: {meas_gain:.3f} outside tol: {targetGain} +/- {gain_tol:.2f}"
                         child.setText(text)
                         child.setStyleSheet("background-color: salmon")
                         statusList.append(text)
             label = f"InfoLabel{(i+1)*2}"
-            match prim.measurement_within_tol(
-                meas_offset, self.window.desiredPart["offsetRatio"], tolerance
-            ):
+            match prim.measurement_within_tol(meas_offset, targetOffset, offset_tol):
                 case True:
                     child = self.window.findChild(QLabel, label)
                     if child is not None:
                         child.setText(
-                            f"{self.axis[i]} offset: {meas_offset:.3f} outside tol: {tolerance:.2f}"
+                            f"{self.axis[i]} offset: {meas_offset:.3f} within tol: {targetOffset} +/- {offset_tol:.2f}"
                         )
-                        child.setStyleSheet("background-color: green")
+                        child.setStyleSheet("background-color: lightgreen")
                 case False:
                     child = self.window.findChild(QLabel, label)
                     if child is not None:
-                        text = f"{self.axis[i]} offset: {meas_offset:.3f} outside tol: {tolerance:.2f}"
+                        text = f"{self.axis[i]} offset: {meas_offset:.3f} outside tol: {targetOffset} +/- {offset_tol:.2f}"
                         child.setText(text)
                         child.setStyleSheet("background-color: salmon")
                         statusList.append(text)
