@@ -19,7 +19,7 @@
             "tolerance": 2
         },
         "PWR-": {
-            "target": 15,
+            "target": -15,
             "tolerance": 2
         },
         "VCC": {
