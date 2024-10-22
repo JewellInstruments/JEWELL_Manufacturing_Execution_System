@@ -190,7 +190,7 @@ class Subroutine:
 
     # changes mini status window in program to check errors, returns error signals for root cause tracker (cal and ver)
     def showPowerStatus(self, measured):
-        statusList = []
+        statusList: list = None
         i = 1
         for key in self.window.support["powerInfo"]:
             label = f"InfoLabel{i}"
@@ -219,7 +219,7 @@ class Subroutine:
 
     # changes mini status window in program to check errors, returns error signals for root cause tracker (ver)
     def showResistorStatus(self, res_array):
-        statusList = []
+        statusList: list = None
         tolerance = 1
         for i in range(int(self.window.desiredPart["model"].split("-")[1][0])):
             meas_gain = 1 + (
